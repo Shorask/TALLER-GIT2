@@ -3,6 +3,7 @@ from division import divisionIn
 from potencia import power
 from Resta import resta
 from Multiplicacion import multiplicacion
+from module import modulo
 
 
 def game():
