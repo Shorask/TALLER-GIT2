@@ -36,7 +36,7 @@ def game():
 
 
         if option == 2:
-            resultf = add(num_1, num_2)
+            resultf = resta(num_1, num_2)
 
             if resultf == answer:
 
@@ -47,7 +47,7 @@ def game():
 
         
         if option == 3:
-            resultf = add(num_1, num_2)
+            resultf = multiplicacion(num_1, num_2)
 
             if resultf == answer:
 
@@ -80,7 +80,7 @@ def game():
 
         
         if option == 6:
-            resultf = power(num_1, num_2)
+            resultf = modulo(num_1, num_2)
             
             if resultf == answer:
 
